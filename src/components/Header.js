@@ -8,7 +8,7 @@ export const Header = () => {
     document.documentElement.removeAttribute("class");
 
     document.documentElement.classList.add(theme);
-  },[theme]);
+  },[theme]); 
   return (
     <header>
         <div className="logo">
